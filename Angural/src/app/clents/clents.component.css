@@ -1,0 +1,122 @@
+/* Start Clents Section */
+.clents {
+  text-align: center;
+  margin-bottom: 5rem;
+  overflow: hidden;
+}
+
+.clents .Sec {
+  position: relative;
+  left: 5%;
+  overflow: hidden;
+}
+
+.clents .til span {
+  text-transform: uppercase;
+  color: #b3b1b1f5;
+  letter-spacing: 2px;
+}
+
+.clents .til h2 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  font-family: "Raleway", sans-serif;
+}
+
+.clents .bigbox {
+  position: relative;
+}
+
+.clents .backimg {
+  width: 85px;
+  height: 85px;
+  line-height: 85px;
+  border-radius: 50%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  left: 10px;
+}
+
+.clents .backimg1 {
+  background-color: bisque;
+}
+
+.clents .backimg2 {
+  background-color: red;
+}
+
+.clents .backimg3 {
+  background-color: darkcyan;
+}
+
+.clents .backimg4 {
+  background-color: darkkhaki;
+}
+
+.clents .backimg5 {
+  background-color: darkorchid;
+}
+
+.clents .backimg6 {
+  background-color: deepskyblue;
+}
+
+.clents .backimg img {
+  position: relative;
+}
+
+.clents .head {
+  padding-top: 25px;
+}
+
+.clents .head h4 {
+  font-size: 25px;
+  text-align: left;
+  font-weight: 600;
+}
+
+.clents .head p {
+  text-align: initial;
+}
+
+/* End Clents Section ********************************************************************************************************/
+@media (min-width: 320px) and (max-width: 500px) {
+  .clents .til h2 {
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 500px) {
+  .clents .bigbox {
+    position: relative;
+    text-align: center;
+    margin-bottom: 3.7rem;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 500px) {
+  .clents .backimg {
+    left: 127px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 500px) {
+  .clents .head h4 {
+    text-align: center;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 500px) {
+  .clents .head p {
+    text-align: center;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 500px) {
+  .clents {
+    margin-bottom: 0.5rem !important;
+  }
+}
+/*# sourceMappingURL=clents.component.css.map */

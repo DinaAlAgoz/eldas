@@ -1,0 +1,117 @@
+/* Start Pages Section */
+
+$basicColor: #ffffff;
+$font-family: "Alegreya Sans", sans-serif;
+$backgroundbtn: #998675;
+$headersColor: #373737;
+$pragrphColor: #b3b1b1f5;
+$fontrelway: "Raleway", sans-serif;
+$secborder: #ebebeb;
+$iconColor: #d9d9d9;
+
+.pages {
+    background-image: url('../../assets/05_homepage\ \(1\).jpg');
+    width: 100%;
+    position: relative;
+    margin-bottom: 25rem;
+  }
+  
+  .pages .page {
+    padding: 2rem;
+  }
+  
+  .pages .contant p {
+    margin-bottom: 10rem !important;
+  }
+  
+  .pages .contant {
+    color: $basicColor;
+  }
+  
+  .pages span {
+    color: $basicColor;
+    letter-spacing: 3px;
+    margin-bottom: 2rem;
+  }
+  
+  .pages h2 {
+    margin-top: 20px;
+    font-family: $font-family;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 30px;
+  }
+  
+  .pages .background {
+    background-color: #ff4700e6;
+    width: 85px;
+    height: 85px;
+    line-height: 85px;
+    border-radius: 50%;
+    text-align: center;
+    position: relative;
+    margin: 25px 45px;
+  }
+  
+  .pages .background img {
+    position: relative;
+    width: 35px;
+    height: auto;
+  }
+  
+  .pages .box {
+    border-radius: 5px;
+    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.11);
+    background-color: $basicColor;
+    position: absolute;
+    top: 65%;
+    width: 76%;
+    justify-content: center;
+    left: 14%;
+  }
+  .pages .box p {
+    padding: 0px 20px !important;
+    font-size: 14px;
+    position: relative;
+    top: 5px;
+    text-align: justify;
+    margin-bottom: 2rem;
+    color: $headersColor;
+    font-size: 16px;
+  }
+  
+  .pages .box h3 {
+    text-align: left;
+    margin-left: 25px;
+    font-size: 25px;
+  }
+  
+  /* End Pages Section ******************************************************************************************************/
+
+  @media (min-width: 320px) and (max-width: 500px) {
+    .pages h2 {
+      font-size: 16px;
+      padding: 0px !important;
+    }
+  }
+  
+  @media (min-width: 320px) and (max-width: 500px) {
+    .pages p {
+      font-size: 13px;
+      padding: 0px !important;
+    }
+  }
+  
+  @media (min-width: 320px) and (max-width: 500px) {
+    .pages .box {
+      display: none;
+      margin-bottom: 0px !important;
+    }
+  }
+  
+  @media (min-width: 320px) and (max-width: 500px) {
+    .pages {
+      margin-bottom: 7rem !important;
+    }
+  }
+  

@@ -1,0 +1,252 @@
+/* Start Portofiolo Section */
+
+
+
+$basicColor: #ffffff;
+$font-family: "Alegreya Sans", sans-serif;
+$backgroundbtn: #998675;
+$headersColor: #373737;
+$pragrphColor: #b3b1b1f5;
+$fontrelway: "Raleway", sans-serif;
+$secborder: #ebebeb;
+$iconColor: #d9d9d9;
+
+.portofolio {
+
+    overflow: hidden;
+  }
+  
+  .portofolio .bigSec {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 0.3rem;
+    margin-bottom: 5rem;
+  }
+  
+  .portofolio .box1 {
+    background-color: #464242;
+    padding: 5rem 5rem;
+  }
+  
+  .portofolio .box2 {
+    grid-row: 1/3;
+    grid-column: 3;
+    background-color: #464242;
+    padding: 5rem 5rem;
+  }
+  
+  .portofolio .box4 {
+    background-color: #464242;
+    padding: 5rem 5rem;
+  }
+  
+  .portofolio .box6 {
+    background-color: #464242;
+    padding: 5rem 5rem;
+  }
+  
+  .portofolio .box7 {
+    grid-column: 2/4;
+    grid-row: 3;
+    background-color: #464242;
+    padding: 5rem 5rem;
+  }
+  
+  .portofolio .box3 {
+    background-color: #ebebeb;
+    padding: 5rem;
+  }
+  
+  .portofolio .box5 {
+    background-color: red;
+    padding: 5rem;
+    border: 10px solid black;
+    position: relative;
+  }
+  
+  .portofolio .box5 h4 {
+    padding: 1px !important;
+    font-size: 16px !important;
+    color: $secborder;
+    font-family: $font-family;
+  }
+  
+  .portofolio .box5 .border {
+    width: 55px;
+    position: absolute;
+    left: 40%;
+  }
+  
+  .portofolio .box5 span {
+    font-size: 12px;
+    color: $iconColor;
+    position: relative;
+    left: 10px;
+  }
+  
+  .portofolio .til span {
+    text-transform: uppercase;
+    color: $pragrphColor;
+    letter-spacing: 2px;
+  }
+  
+  .portofolio .til h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    font-family: $fontrelway;
+  }
+  
+  .portofolio .headers h4 {
+    padding: 0px 20px;
+    font-size: 16px;
+    padding-bottom: 45px;
+    font-family: $font-family;
+    font-weight: 500;
+  }
+  .portofolio .headers h3 {
+    padding: 0px 20px;
+    font-size: 16px;
+    padding-bottom: 45px;
+    font-family: $fontrelway;
+    color: #007bff8f;
+  }
+  
+  .portofolio .headers .border {
+    border: 1px solid #007bff8f !important;
+    width: 50px;
+    position: relative;
+    top: 10px;
+  }
+  
+  .portofolio .bt {
+    width: 137px;
+    position: absolute;
+    left: 46%;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: gainsboro;
+    height: 49px;
+    color: gray;
+    text-transform: uppercase;
+  }
+  
+  .portofolio .cl {
+    margin-bottom: 6.5rem;
+  }
+  
+  .portofolio .video {
+    background-color: #494350e8;
+    width: 85%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12rem;
+    border-radius: 7px;
+    z-index: 9999;
+  }
+  
+  .portofolio .video img {
+    width: 120px;
+    position: absolute;
+    text-align: center;
+  }
+  
+  .portofolio .hashed {
+    position: relative;
+    width: 320px;
+    left: 282px;
+    top: 276px;
+  }
+  
+  .portofolio .hashed2 {
+    right: 55px;
+    bottom: 295px;
+    position: relative;
+    width: 320px;
+  }
+  
+  .portofolio .us span {
+    font-size: 12px;
+    color: gray;
+    text-transform: uppercase;
+    font-family: $font-family;
+    letter-spacing: 3px;
+  }
+  
+  .portofolio .us h2 {
+    font-size: 3.1rem;
+    font-weight: 800;
+    font-family: $font-family;
+    margin-top: 8px;
+  }
+  .portofolio .us p {
+    color: #8e8798;
+    padding: 0px 5px;
+  }
+  
+  .portofolio .us .btn {
+    width: 137px;
+    position: absolute;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: #3593ca;
+    height: 49px;
+    color: #ffffff;
+    text-transform: uppercase;
+  }
+  
+
+  @media (min-width: 320px) and (max-width: 500px) {
+    .portofolio .us h2 {
+      font-size: 2rem;
+    }
+  }
+  
+  @media (min-width: 320px) and (max-width: 500px) {
+    .portofolio .bigSec {
+  
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+  @media (min-width: 320px) and (max-width: 500px) {
+    .portofolio .bigSec .box2 {
+  
+     
+      margin-bottom: 20px;
+    }
+  }
+  
+  @media (min-width: 320px) and (max-width: 500px) {
+    .portofolio .bigSec .box4 {
+  
+     
+      margin: 20px 0px;
+    }
+  }
+  
+  @media (min-width: 320px) and (max-width: 500px) {
+    .portofolio .bigSec .box6 {
+  
+     
+      margin: 20px 0px;
+    }
+  }
+  
+  
+  @media (min-width: 320px) and (max-width: 500px) {
+    .portofolio .bt {
+  
+     
+    left: 35%;
+    }
+  }
+  
+  
+  @media (min-width: 320px) and (max-width: 500px) {
+    .portofolio .us {
+      margin-bottom: 11rem;
+    }
+  }

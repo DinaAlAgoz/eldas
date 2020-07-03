@@ -1,0 +1,92 @@
+.fotter {
+  overflow: hidden;
+}
+
+.fotter .fristfot {
+  position: relative;
+}
+
+.fotter .fristfot img {
+  width: 95px;
+}
+
+.fotter .comp h4 {
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: "Alegreya Sans", sans-serif;
+}
+
+.fotter .comp .hireing {
+  position: absolute;
+  left: 115px;
+  bottom: 38px;
+  background-color: orangered;
+  border-radius: 5px;
+  padding: .5px 10px;
+  color: #ebebeb;
+}
+
+.fotter .comp {
+  padding: 0px !important;
+}
+
+.fotter ul {
+  list-style: none;
+  text-align: center;
+  position: relative;
+  right: 18px;
+}
+
+.fotter ul li {
+  padding: 5px 10px;
+}
+
+.fotter span.fa-li {
+  left: -10px !important;
+}
+
+.fotter li i {
+  font-size: 12px;
+  color: #0089ff !important;
+}
+
+.fotter span.fa-li {
+  font-size: 12px;
+}
+
+.fotter span.bod.fa-li {
+  font-size: 12px;
+  background-color: #e1e4e4;
+  border-radius: 50px;
+  padding: 1px 5px;
+}
+
+.fotter .copyright {
+  color: #373737;
+  font-weight: 500;
+  position: relative;
+  left: 70px;
+  font-family: "Raleway", sans-serif;
+  padding: 20px;
+}
+
+@media (min-width: 320px) and (max-width: 500px) {
+  .fotter .comp .hireing {
+    display: none;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 500px) {
+  .fotter .fristfot img {
+    width: 200px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 500px) {
+  .fotter .copyright {
+    left: 30px;
+  }
+}
+/*# sourceMappingURL=fotter.component.css.map */

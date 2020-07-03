@@ -1,0 +1,213 @@
+
+$basicColor: #ffffff;
+$font-family: "Alegreya Sans", sans-serif;
+$backgroundbtn: #998675;
+$headersColor: #373737;
+$pragrphColor: #b3b1b1f5;
+$fontrelway: "Raleway", sans-serif;
+$secborder: #ebebeb;
+$iconColor: #d9d9d9;
+
+
+
+/* Start Header Section */
+.bigbody {
+  overflow: hidden;
+  position: relative;
+}
+
+.home .navbar {
+  padding: 30px 10px;
+  z-index: 9999999999999;
+}
+
+.home .navbar-nav .nav-link {
+  padding-right: 3rem !important;
+}
+
+.home .nav-item a {
+  color: #ffff;
+  font-weight: 600;
+  font-style: normal;
+  text-transform: uppercase;
+  font-size: 13px;
+  position: relative;
+  right: -15px;
+}
+
+.home .navbar img {
+  width: 130px;
+  position: relative;
+}
+
+.home .navbar .rinav {
+  position: relative;
+  left: 50px;
+}
+
+.home .navbar .rinav img {
+  width: 10px;
+}
+
+.navbar .rinav .minicon {
+  position: relative;
+  bottom: 35px;
+  left: 35px;
+}
+
+.navbar .rinav .minicon i {
+  padding: 0px 5px;
+}
+
+.headpic {
+  right: 34%;
+  position: relative;
+  bottom: 26%;
+  /* left: -15%; */
+  width: 155%;
+}
+
+.home .head p {
+  color: gray;
+  padding: 0.2rem 2rem;
+  font-size: 16px;
+  text-align: left;
+}
+
+.home .head {
+  position: relative;
+  left: 14%;
+  z-index: 99999;
+}
+
+.home .head h2 {
+  font-size: 50px;
+  font-weight: 700;
+  color: black;
+  font-family: "Raleway", sans-serif;
+  text-align: left;
+  padding: 0rem 1.5rem;
+}
+.head button {
+  text-align: left;
+  right: 49%;
+  position: relative;
+  background-color: #ff4500c7;
+  padding: 10px 30px;
+  border: none;
+  color: $basicColor !important;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.2 ease-in-out;
+  box-shadow: 0 5px 18px rgba(0, 0, 0, 0.11);
+}
+
+.head button:hover {
+  transform: translate(0, -3px);
+}
+
+/* ***********************************************************/
+.header .contain h2 {
+  font-size: 3.1rem;
+  font-weight: 800;
+  font-family: $font-family;
+}
+
+.header {
+  margin-bottom: 5rem;
+  overflow: hidden;
+}
+
+.header .contain span {
+  position: relative;
+  left: 45%;
+  letter-spacing: 3px;
+  color: gray;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.header .contain {
+  position: relative;
+  padding: 5rem 0rem;
+}
+
+.header .contain p {
+  font-size: 14px;
+  padding: 0rem 0.3rem;
+}
+
+.header .contain .bt {
+  padding: 8px 27px;
+  border: none;
+  background-color: #ff5e00;
+  color: $basicColor;
+  border-radius: 37px;
+  position: relative;
+}
+
+
+/* End header Section ************************************************************************************************/
+
+@media (min-width: 320px) and (max-width: 540px) {
+  .headpic {
+    display: none;
+    overflow: hidden;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 770px) {
+  .headpic {
+    left: 30%;
+    bottom: 89%;
+  }
+}
+
+@media (min-width: 770px) and (max-width: 1170px) {
+  .headpic {
+    left: 2%;
+    bottom: 40%;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 500px) {
+  .head h2 {
+    font-size: 40px;
+    padding: 0px !important;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 500px) {
+  .home .head {
+    text-align: left;
+    position: relative;
+    left: 8px;
+    margin-bottom: 4rem;
+  }
+}
+
+@media (min-width: 550px) and (max-width: 765px) {
+  .home .head {
+    text-align: left;
+    position: relative;
+    left: -50px;
+    margin-bottom: 4rem;
+  }
+}
+
+
+@media (min-width: 800px) and (max-width: 967px) {
+  .home .head {
+    text-align: left;
+    position: relative;
+    left: -30px;
+    margin-bottom: 4rem;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 967px) {
+  .home .head h2 {
+    font-size: 35px;
+    padding: 0px !important;
+  }
+}
